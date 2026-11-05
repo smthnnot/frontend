@@ -1,0 +1,28 @@
+.logo-purple-sphere {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background: radial-gradient(circle, #f3e5f5 0%, #ba68c8 25%, #6a1b9a 65%, #05000a 100%);
+  box-shadow: 0 0 16px #9c27b0, 0 0 30px rgba(156, 39, 176, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-purple-sphere .ring {
+  position: absolute;
+  width: 58px;
+  height: 22px;
+  border: 2px solid #e1bee7;
+  border-top-color: #00e5ff;
+  border-bottom-color: #ff1744;
+  border-radius: 50%;
+  animation: orbitSpin 3s linear infinite;
+}
+
+@keyframes orbitSpin {
+  0% { transform: rotate(0deg) rotateX(65deg); }
+  100% { transform: rotate(360deg) rotateX(65deg); }
+}

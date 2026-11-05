@@ -1,0 +1,263 @@
+.pic {
+  width: 200px;
+  height: 200px;
+  border: 10px solid #ffffff;
+  background-color: #a4b786;
+  margin: 50px auto;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0px 2px 5px #797777;
+  box-sizing: content-box;
+}
+
+.curtain {
+  position: absolute;
+  top: 20px;
+  left: 44px;
+  width: 112px;
+  height: 120px;
+  background-color: #ffffff;
+}
+
+.curtain-scallops {
+  position: absolute;
+  inset: -4px -4px 0 -4px;
+}
+
+.curtain-scallops-top {
+  position: absolute;
+  top: 0;
+  left: 2px;
+  right: 2px;
+  height: 12px;
+  background-image: radial-gradient(circle at 6px 6px, #ffffff 5.5px, transparent 6px);
+  background-size: 12px 12px;
+  background-repeat: repeat;
+}
+
+.curtain-scallops-left {
+  position: absolute;
+  top: 6px;
+  bottom: 0;
+  left: 0;
+  width: 12px;
+  background-image: radial-gradient(circle at 6px 6px, #ffffff 5.5px, transparent 6px);
+  background-size: 12px 12px;
+  background-repeat: repeat;
+}
+
+.curtain-scallops-right {
+  position: absolute;
+  top: 6px;
+  bottom: 0;
+  right: 0;
+  width: 12px;
+  background-image: radial-gradient(circle at 6px 6px, #ffffff 5.5px, transparent 6px);
+  background-size: 12px 12px;
+  background-repeat: repeat;
+}
+
+.window {
+  position: absolute;
+  top: 6px;
+  left: 10px;
+  width: 92px;
+  height: 96px;
+  background: radial-gradient(circle at 65% 55%, #ffffff 0%, #a4cdff 30%, #3074ee 85%, #235ec7 100%);
+  overflow: hidden;
+}
+
+.sun {
+  position: absolute;
+  top: -12px;
+  right: -12px;
+  width: 48px;
+  height: 48px;
+  background-color: #f7ea51;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(255, 240, 100, 0.7);
+}
+
+.table {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 98px;
+  z-index: 11;
+}
+
+.table-top {
+  position: absolute;
+  top: 18px;
+  left: 54px;
+  width: 92px;
+  height: 11px;
+  background-color: #cb6925;
+}
+
+.table-leg {
+  position: absolute;
+  top: 20px;
+  left: 90px;
+  width: 18px;
+  height: 54px;
+}
+
+.table-bulb {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  width: 18px;
+  height: 44px;
+  background: #cb6925;
+  border-radius: 50%;
+}
+
+.table-base {
+  position: absolute;
+  bottom: 5px;
+  left: 77px;
+  width: 0;
+  height: 0;
+  border-bottom: 40px solid #cb6925;
+  border-left: 22px solid transparent;
+  border-right: 22px solid transparent;
+}
+
+.teapot {
+  position: absolute;
+  top: 68px;
+  left: 54px;
+  width: 82px;
+  height: 56px;
+  z-index: 10;
+}
+
+.teapot-body {
+  position: absolute;
+  bottom: 0;
+  left: 14px;
+  width: 53px;
+  height: 38px;
+  background: radial-gradient(circle at 35% 35%, #ffffff 0%, #ff85a1 20%, #ee3364 55%, #ba1542 90%, #820b2b 100%);
+  border-radius: 50%;
+}
+
+.teapot-lid {
+  position: absolute;
+  top: 5px;
+  left: 23px;
+  width: 32px;
+  height: 17px;
+  background: radial-gradient(circle at 45% 35%, #ffa6bc 0%, #ee3364 65%, #a81039 100%);
+  border-radius: 17px 17px 0 0;
+}
+
+.teapot-knob {
+  position: absolute;
+  top: 0;
+  left: 36px;
+  width: 8px;
+  height: 8px;
+  background: radial-gradient(circle at 40% 40%, #ffffff 0%, #ee3364 60%, #8b082c 100%);
+  border-radius: 50%;
+}
+
+.teapot-spout {
+  position: absolute;
+  bottom: 28px;
+  left: 0;
+  width: 19px;
+  height: 6px;
+  background: linear-gradient(135deg, #ee3364 0%, #c41846 100%);
+  transform: rotate(30deg);
+  border-radius: 5px 0 0px 0px;
+}
+
+.teapot-handle {
+  position: absolute;
+  top: 22px;
+  right: 6px;
+  width: 13px;
+  height: 19px;
+  border: 3px solid #ee3364;
+  border-left: none;
+  border-radius: 0 13px 13px 0;
+  transform: rotate(-16.5deg);
+}
+
+.chair {
+  position: absolute;
+  bottom: 14px;
+  width: 43px;
+  height: 85px;
+  z-index: 5;
+}
+
+.chair-left {
+  left: 12px;
+}
+
+.chair-right {
+  right: 12px;
+  transform: scaleX(-1);
+}
+
+.chair-seat {
+  position: absolute;
+  top: 48px;
+  left: 16px;
+  width: 29px;
+  height: 8px;
+  background-color: #cb6925;
+  border-radius: 0px;
+}
+
+.chair-rivets {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 5px;
+  height: 5px;
+  background-color: #632603;
+  border-radius: 50%;
+  box-shadow: 8px 0 #632603, 16px 0 #632603;
+}
+
+.chair-leg-front {
+  position: absolute;
+  top: 55px;
+  right: 2px;
+  width: 6px;
+  height: 39px;
+  background-color: #cb6925;
+}
+
+.chair-back {
+  position: absolute;
+  top: 0;
+  left: -10px;
+  width: 28px;
+  height: 98px;
+}
+
+.chair-back-top {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  width: 24px;
+  height: 52px;
+  border-right: 5px solid #cb6925;
+  border-radius: 0 100% 0 0; 
+}
+
+.chair-back-bottom {
+  position: absolute;
+  top: 48px;
+  left: 0px;
+  width: 24px;
+  height: 48px;
+  border-right: 5px solid #cb6925;
+  border-radius: 0 0 100% 0;
+}
